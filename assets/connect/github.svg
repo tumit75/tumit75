@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="96" viewBox="0 0 380 96" role="img" aria-labelledby="t d">
+<title id="t">GitHub</title>
+<desc id="d">@tumit75</desc>
+<style>
+@keyframes fu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes ping{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.8);opacity:0}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,26px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.fu{animation:fu .8s cubic-bezier(.2,.7,.2,1) both}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 2s ease-out infinite}
+.drift{animation:drift 16s ease-in-out infinite}
+.grow{transform-box:fill-box;transform-origin:50% 100%;animation:grow .9s cubic-bezier(.2,.7,.2,1) both}
+@media (prefers-reduced-motion: reduce){.a,.a *{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="tileG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101B33"/><stop offset="1" stop-color="#0A1122"/></linearGradient>
+<linearGradient id="brandG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<linearGradient id="brandH" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<linearGradient id="barG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+<linearGradient id="edgeG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".12"/><stop offset=".3" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<radialGradient id="glowB"><stop offset="0" stop-color="#3B82F6" stop-opacity=".38"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></radialGradient>
+<radialGradient id="glowC"><stop offset="0" stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<pattern id="gridP" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#FFFFFF" stroke-opacity=".035"/></pattern></defs>
+<g class="a"><g class="fu" style="animation-delay:0.00s">
+<clipPath id="c43"><rect x="0" y="0" width="380" height="96" rx="20"/></clipPath>
+<rect x="0" y="0" width="380" height="96" rx="20" fill="url(#tileG)"/>
+<g clip-path="url(#c43)">
+<circle cx="0" cy="48" r="140" fill="url(#glowB)"/>
+<circle cx="50" cy="48" r="27" fill="url(#brandG)"/>
+<g transform="translate(37 35) scale(1.0833)"><path fill="#04101F" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></g>
+<text x="94" y="44" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="23" font-weight="800" fill="#EAF2FF">GitHub</text>
+<text x="95" y="70" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="15" fill="#7486A3">@tumit75</text>
+<path d="M340 56l10-10M341 46h9v9" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<rect x="0.5" y="0.5" width="379" height="95" rx="19.5" fill="none" stroke="#1C2A4A"/>
+<rect x="0.5" y="0.5" width="379" height="95" rx="19.5" fill="none" stroke="url(#edgeG)"/>
+</g></g>
+</svg>

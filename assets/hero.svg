@@ -1,82 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="h-title h-desc">
-<title id="h-title">Tumit Hasan — Full Stack Developer</title>
-<desc id="h-desc">Editor-style banner. Tumit Hasan, Full Stack Developer at Exprovia working with MERN, Next.js and WordPress. Based in Jashore, Khulna, Bangladesh. Open to collaborate.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="444" viewBox="0 0 1200 444" role="img" aria-labelledby="t d">
+<title id="t">Tumit Hasan — Full Stack Developer</title>
+<desc id="d">Tumit Hasan, Full Stack Developer at Exprovia working with MERN, Next.js, WordPress. CSE · Final semester at Satkhira Polytechnic Institute. Based in Jashore, Khulna, Bangladesh. 9 public repositories on GitHub. Open to collaborate.</desc>
 <style>
-@keyframes h-up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
-@keyframes h-in{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}
-@keyframes h-draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
-@keyframes h-blink{0%,49%{opacity:1}50%,100%{opacity:0}}
-@keyframes h-drift-a{0%,100%{transform:translate(0,0)}50%{transform:translate(60px,24px)}}
-@keyframes h-drift-b{0%,100%{transform:translate(0,0)}50%{transform:translate(-70px,-20px)}}
-@keyframes h-ping{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.8);opacity:0}}
-@keyframes h-sheen{0%{transform:translateX(0)}55%,100%{transform:translateX(1500px)}}
-.h-up{animation:h-up .8s cubic-bezier(.2,.7,.2,1) both}
-.h-ln{animation:h-in .45s cubic-bezier(.2,.7,.2,1) both}
-.h-draw{stroke-dasharray:1;animation:h-draw 1.2s cubic-bezier(.6,0,.2,1) .9s both}
-.h-caret{animation:h-blink 1.05s step-end infinite}
-.h-da{animation:h-drift-a 16s ease-in-out infinite}
-.h-db{animation:h-drift-b 19s ease-in-out infinite}
-.h-ping{transform-box:fill-box;transform-origin:center;animation:h-ping 1.8s ease-out infinite}
-.h-sheen{animation:h-sheen 8s ease-in-out 2.5s infinite}
-@media (prefers-reduced-motion: reduce){.a,.a *{animation:none!important}}</style>
+@keyframes fu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes ping{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.8);opacity:0}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,26px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.fu{animation:fu .8s cubic-bezier(.2,.7,.2,1) both}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 2s ease-out infinite}
+.drift{animation:drift 16s ease-in-out infinite}
+.grow{transform-box:fill-box;transform-origin:50% 100%;animation:grow .9s cubic-bezier(.2,.7,.2,1) both}
+@media (prefers-reduced-motion: reduce){.a,.a *{animation:none!important}}
+</style>
 <defs>
-  <clipPath id="h-clip"><rect width="1200" height="420" rx="18"/></clipPath>
-  <linearGradient id="h-brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFB547"/><stop offset="1" stop-color="#FF6B4A"/></linearGradient>
-  <linearGradient id="h-under" gradientUnits="userSpaceOnUse" x1="56" y1="0" x2="250" y2="0"><stop offset="0" stop-color="#FFB547"/><stop offset="1" stop-color="#FF6B4A"/></linearGradient>
-  <radialGradient id="h-glow-a"><stop offset="0" stop-color="#FFB547" stop-opacity=".16"/><stop offset="1" stop-color="#FFB547" stop-opacity="0"/></radialGradient>
-  <radialGradient id="h-glow-b"><stop offset="0" stop-color="#FF6B4A" stop-opacity=".12"/><stop offset="1" stop-color="#FF6B4A" stop-opacity="0"/></radialGradient>
-  <pattern id="h-dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#F3EEE6" fill-opacity=".05"/></pattern>
-  <linearGradient id="h-sheen-g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F3EEE6" stop-opacity="0"/><stop offset=".5" stop-color="#F3EEE6" stop-opacity=".045"/><stop offset="1" stop-color="#F3EEE6" stop-opacity="0"/></linearGradient>
-</defs>
-<g clip-path="url(#h-clip)">
-  <rect width="1200" height="420" fill="#10131A"/>
-  <rect y="46" width="1200" height="336" fill="url(#h-dots)"/>
-  <g class="a"><g class="h-da"><circle cx="200" cy="170" r="340" fill="url(#h-glow-a)"/></g><g class="h-db"><circle cx="1010" cy="360" r="360" fill="url(#h-glow-b)"/></g></g>
-  <g class="a" transform="skewX(-18)"><rect class="h-sheen" x="-300" y="46" width="180" height="336" fill="url(#h-sheen-g)"/></g>
+<linearGradient id="tileG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101B33"/><stop offset="1" stop-color="#0A1122"/></linearGradient>
+<linearGradient id="brandG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<linearGradient id="brandH" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<linearGradient id="barG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+<linearGradient id="edgeG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".12"/><stop offset=".3" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<radialGradient id="glowB"><stop offset="0" stop-color="#3B82F6" stop-opacity=".38"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></radialGradient>
+<radialGradient id="glowC"><stop offset="0" stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<pattern id="gridP" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#FFFFFF" stroke-opacity=".035"/></pattern><linearGradient id="roleG" gradientUnits="userSpaceOnUse" x1="44" y1="0" x2="428" y2="0"><stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+<g class="a"><g class="fu" style="animation-delay:0.05s">
+<clipPath id="c1"><rect x="0" y="0" width="760" height="300" rx="22"/></clipPath>
+<rect x="0" y="0" width="760" height="300" rx="22" fill="url(#tileG)"/>
+<g clip-path="url(#c1)">
+<rect width="760" height="300" fill="url(#gridP)"/>
+<g class="a"><g class="drift"><circle cx="660" cy="0" r="340" fill="url(#glowB)"/></g></g>
+<circle cx="80" cy="330" r="260" fill="url(#glowC)"/>
+<g fill="none" stroke="#2A3D66" stroke-opacity=".8"><circle cx="705" cy="40" r="80"/><circle cx="705" cy="40" r="140"/><circle cx="705" cy="40" r="200" stroke-dasharray="3 7"/></g>
+<g class="a"><g style="transform-origin:705px 40px;animation:spin 22s linear infinite"><circle cx="565" cy="40" r="5" fill="#22D3EE"/></g></g>
+<g class="a"><g style="transform-origin:705px 40px;animation:spin 34s linear infinite reverse"><circle cx="705" cy="240" r="3.5" fill="#3B82F6"/></g></g>
+<text x="44" y="64" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="15" font-weight="600" letter-spacing="4" fill="#22D3EE">HELLO, I’M</text>
+<text x="40" y="148" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="80" font-weight="800" letter-spacing="-1.5" fill="#EAF2FF">Tumit Hasan</text>
+<text x="44" y="196" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="32" font-weight="700" fill="url(#roleG)">Full Stack Developer</text>
+<text x="44" y="232" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" fill="#9AA8BF">I build fast, user-friendly web apps.</text>
+<rect x="44" y="252" width="67" height="34" rx="17" fill="#3B82F6" fill-opacity="0.12" stroke="#2A3D66"/><text x="77.5" y="274.3" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="15" text-anchor="middle" fill="#7DD3FC">MERN</text><rect x="121" y="252" width="95" height="34" rx="17" fill="#3B82F6" fill-opacity="0.12" stroke="#2A3D66"/><text x="168.5" y="274.3" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="15" text-anchor="middle" fill="#7DD3FC">Next.js</text><rect x="226" y="252" width="114" height="34" rx="17" fill="#3B82F6" fill-opacity="0.12" stroke="#2A3D66"/><text x="283" y="274.3" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="15" text-anchor="middle" fill="#7DD3FC">WordPress</text></g>
+<rect x="0.5" y="0.5" width="759" height="299" rx="21.5" fill="none" stroke="#1C2A4A"/>
+<rect x="0.5" y="0.5" width="759" height="299" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+</g></g><g class="a"><g class="fu" style="animation-delay:0.15s">
+<clipPath id="c2"><rect x="776" y="0" width="424" height="142" rx="22"/></clipPath>
+<rect x="776" y="0" width="424" height="142" rx="22" fill="url(#brandG)"/>
+<g clip-path="url(#c2)">
+<circle cx="1170" cy="150" r="110" fill="#FFFFFF" fill-opacity=".10"/>
+<circle cx="1170" cy="150" r="64" fill="#FFFFFF" fill-opacity=".10"/>
+<text x="800" y="82" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="50" font-weight="800" letter-spacing="-1" fill="#04101F">1+ year</text>
+<text x="802" y="116" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" font-weight="600" fill="#04101F">Full Stack Developer at Exprovia</text>
+<g transform="translate(1148 24) scale(1.1667)" fill="none" stroke="#04101F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7"/><path d="M3 12.5h18"/><path d="M11 12.5v2h2v-2"/></g></g>
+<rect x="776.5" y="0.5" width="423" height="141" rx="21.5" fill="none" stroke="#5FB3F9"/>
+<rect x="776.5" y="0.5" width="423" height="141" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+</g></g><g class="a"><g class="fu" style="animation-delay:0.22s">
+<clipPath id="c3"><rect x="776" y="158" width="424" height="142" rx="22"/></clipPath>
+<rect x="776" y="158" width="424" height="142" rx="22" fill="url(#tileG)"/>
+<g clip-path="url(#c3)">
+<text x="800" y="200" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" font-weight="600" letter-spacing="2.2" fill="#7486A3">EDUCATION</text>
+<text x="800" y="240" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#EAF2FF">CSE · Final semester</text>
+<text x="801" y="270" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="18" fill="#9AA8BF">Satkhira Polytechnic Institute</text>
+<g transform="translate(1146 180) scale(1.1667)" fill="none" stroke="#22D3EE" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 9.5L12 5l9.5 4.5L12 14z"/><path d="M6.5 11.6v4.4c0 1.4 2.5 3 5.5 3s5.5-1.6 5.5-3v-4.4"/><path d="M21.5 9.5v5.5"/></g></g>
+<rect x="776.5" y="158.5" width="423" height="141" rx="21.5" fill="none" stroke="#1C2A4A"/>
+<rect x="776.5" y="158.5" width="423" height="141" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+</g></g><g class="a"><g class="fu" style="animation-delay:0.30s">
+<clipPath id="c4"><rect x="0" y="316" width="388" height="128" rx="22"/></clipPath>
+<rect x="0" y="316" width="388" height="128" rx="22" fill="url(#tileG)"/>
+<g clip-path="url(#c4)">
+<text x="32" y="360" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" font-weight="600" letter-spacing="2.2" fill="#7486A3">BASED IN</text>
 
-  <!-- title bar -->
-  <rect width="1200" height="46" fill="#0B0D12"/>
-  <circle cx="28" cy="23" r="6" fill="#FF6B4A"/><circle cx="48" cy="23" r="6" fill="#FFB547"/><circle cx="68" cy="23" r="6" fill="#3A3F4D"/>
-  <path d="M96 46V18a8 8 0 0 1 8-8h150a8 8 0 0 1 8 8v28z" fill="#10131A"/>
-  <path d="M100 10.8h158" stroke="url(#h-brand)" stroke-width="2.2"/>
-  <rect x="112" y="21" width="16" height="14" rx="3" fill="#FFB547"/>
-  <text x="120" y="31.5" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="8" font-weight="800" text-anchor="middle" fill="#0B0D12">TS</text>
-  <text x="136" y="32.5" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13" fill="#F3EEE6">tumit.tsx</text>
-  <text x="244" y="32.5" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" text-anchor="middle" fill="#6B6F7B">×</text>
-  <rect x="276" y="21" width="16" height="14" rx="3" fill="none" stroke="#6B6F7B"/>
-  <text x="284" y="31.5" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="7.5" font-weight="800" text-anchor="middle" fill="#6B6F7B">MD</text>
-  <text x="300" y="32.5" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13" fill="#A39E95">README.md</text>
-  <text x="1176" y="29" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12" text-anchor="end" fill="#6B6F7B">github.com/tumit75</text>
-  <path d="M0 46H96M262 46H1200" stroke="#232836"/>
+<text x="32" y="400" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#EAF2FF">Jashore, Khulna</text>
+<text x="33" y="428" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#9AA8BF">Bangladesh · UTC+6</text>
+<g transform="translate(332 338) scale(1.1667)" fill="none" stroke="#22D3EE" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.5s-7-6.1-7-11.6a7 7 0 0 1 14 0c0 5.5-7 11.6-7 11.6z"/><circle cx="12" cy="9.9" r="2.6"/></g></g>
+<rect x="0.5" y="316.5" width="387" height="127" rx="21.5" fill="none" stroke="#1C2A4A"/>
+<rect x="0.5" y="316.5" width="387" height="127" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+</g></g><g class="a"><g class="fu" style="animation-delay:0.36s">
+<clipPath id="c5"><rect x="404" y="316" width="388" height="128" rx="22"/></clipPath>
+<rect x="404" y="316" width="388" height="128" rx="22" fill="url(#tileG)"/>
+<g clip-path="url(#c5)">
+<text x="436" y="360" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" font-weight="600" letter-spacing="2.2" fill="#7486A3">ON GITHUB</text>
 
-  <!-- intro -->
-  <g class="a"><g class="h-up" style="animation-delay:.1s"><text x="56" y="108" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="15" fill="#6B6F7B">// hi there, I'm</text></g></g>
-  <g class="a"><g class="h-up" style="animation-delay:.25s"><text x="52" y="178" font-family="'Segoe UI','Inter',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="66" font-weight="800" fill="#F3EEE6">Tumit Hasan</text></g></g>
-  <g class="a"><path class="h-draw" pathLength="1" d="M58 202H250" stroke="url(#h-under)" stroke-width="5" stroke-linecap="round" fill="none"/></g>
-  <g class="a"><g class="h-up" style="animation-delay:.45s"><text x="56" y="248" font-family="'Segoe UI','Inter',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="27" font-weight="600" fill="#E9D8B8">Full Stack Developer</text></g></g>
-  <g class="a"><g class="h-up" style="animation-delay:.6s"><rect x="56" y="272" width="60" height="28" rx="14.0" fill="#161A23" stroke="#5A4426"/><text x="86.0" y="290.6" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13" text-anchor="middle" fill="#FFB547">MERN</text><rect x="126" y="272" width="84" height="28" rx="14.0" fill="#161A23" stroke="#5A4426"/><text x="168.0" y="290.6" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13" text-anchor="middle" fill="#FFB547">Next.js</text><rect x="220" y="272" width="100" height="28" rx="14.0" fill="#161A23" stroke="#5A4426"/><text x="270.0" y="290.6" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13" text-anchor="middle" fill="#FFB547">WordPress</text></g></g>
-  <g class="a"><g class="h-up" style="animation-delay:.75s">
-    <g transform="translate(54 330) scale(0.7500)" fill="none" stroke="#A39E95" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.5s-7-6.1-7-11.6a7 7 0 0 1 14 0c0 5.5-7 11.6-7 11.6z"/><circle cx="12" cy="9.9" r="2.6"/></g>
-    <text x="80" y="344" font-family="'Segoe UI','Inter',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14.5" fill="#A39E95">Jashore, Khulna, Bangladesh</text>
-    <circle cx="322" cy="339" r="4.5" fill="#7BD88F"/>
-    <circle class="h-ping" cx="322" cy="339" r="4.5" fill="none" stroke="#7BD88F" stroke-width="1.5"/>
-    <text x="336" y="344" font-family="'Segoe UI','Inter',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14.5" font-weight="600" fill="#F3EEE6">Open to collaborate</text>
-  </g></g>
-
-  <!-- code panel -->
-  <rect x="616" y="72" width="548" height="288" rx="12" fill="#0B0D12" fill-opacity=".88" stroke="#232836"/>
-  <rect x="617" y="292" width="546" height="22" fill="#FFB547" fill-opacity=".07"/>
-  <path d="M666 84V348" stroke="#232836"/>
-  <text x="652" y="110" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" text-anchor="end" fill="#6B6F7B">1</text><g class="a"><text class="h-ln" style="animation-delay:0.60s" x="680" y="110" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13.5"><tspan fill="#FF6B4A">const </tspan><tspan fill="#F3EEE6">tumit</tspan><tspan fill="#A39E95"> = {</tspan></text></g><text x="652" y="132" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" text-anchor="end" fill="#6B6F7B">2</text><g class="a"><text class="h-ln" style="animation-delay:0.71s" x="698" y="132" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13.5"><tspan fill="#E9D8B8">role</tspan><tspan fill="#A39E95">: </tspan><tspan fill="#FFB547">&quot;Full Stack Developer&quot;</tspan><tspan fill="#A39E95">,</tspan></text></g><text x="652" y="154" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" text-anchor="end" fill="#6B6F7B">3</text><g class="a"><text class="h-ln" style="animation-delay:0.82s" x="698" y="154" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13.5"><tspan fill="#E9D8B8">company</tspan><tspan fill="#A39E95">: </tspan><tspan fill="#FFB547">&quot;Exprovia&quot;</tspan><tspan fill="#A39E95">,</tspan></text></g><text x="652" y="176" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" text-anchor="end" fill="#6B6F7B">4</text><g class="a"><text class="h-ln" style="animation-delay:0.93s" x="698" y="176" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13.5"><tspan fill="#E9D8B8">stack</tspan><tspan fill="#A39E95">: [</tspan><tspan fill="#FFB547">&quot;MERN&quot;</tspan><tspan fill="#A39E95">, </tspan><tspan fill="#FFB547">&quot;Next.js&quot;</tspan><tspan fill="#A39E95">, </tspan><tspan fill="#FFB547">&quot;WordPress&quot;</tspan><tspan fill="#A39E95">],</tspan></text></g><text x="652" y="198" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" text-anchor="end" fill="#6B6F7B">5</text><g class="a"><text class="h-ln" style="animation-delay:1.04s" x="698" y="198" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13.5"><tspan fill="#E9D8B8">deploys</tspan><tspan fill="#A39E95">: [</tspan><tspan fill="#FFB547">&quot;Vercel&quot;</tspan><tspan fill="#A39E95">, </tspan><tspan fill="#FFB547">&quot;Netlify&quot;</tspan><tspan fill="#A39E95">, </tspan><tspan fill="#FFB547">&quot;Firebase&quot;</tspan><tspan fill="#A39E95">],</tspan></text></g><text x="652" y="220" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" text-anchor="end" fill="#6B6F7B">6</text><g class="a"><text class="h-ln" style="animation-delay:1.15s" x="698" y="220" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13.5"><tspan fill="#E9D8B8">learning</tspan><tspan fill="#A39E95">: </tspan><tspan fill="#FFB547">&quot;backend security &amp; auth&quot;</tspan><tspan fill="#A39E95">,</tspan></text></g><text x="652" y="242" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" text-anchor="end" fill="#6B6F7B">7</text><g class="a"><text class="h-ln" style="animation-delay:1.26s" x="698" y="242" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13.5"><tspan fill="#E9D8B8">education</tspan><tspan fill="#A39E95">: </tspan><tspan fill="#FFB547">&quot;CSE, final semester&quot;</tspan><tspan fill="#A39E95">,</tspan></text></g><text x="652" y="264" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" text-anchor="end" fill="#6B6F7B">8</text><g class="a"><text class="h-ln" style="animation-delay:1.37s" x="698" y="264" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13.5"><tspan fill="#E9D8B8">offline</tspan><tspan fill="#A39E95">: </tspan><tspan fill="#FFB547">&quot;playing cricket&quot;</tspan><tspan fill="#A39E95">,</tspan></text></g><text x="652" y="286" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" text-anchor="end" fill="#6B6F7B">9</text><g class="a"><text class="h-ln" style="animation-delay:1.48s" x="680" y="286" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13.5"><tspan fill="#A39E95">};</tspan></text></g><text x="652" y="308" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" text-anchor="end" fill="#F3EEE6">10</text><text x="652" y="330" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" text-anchor="end" fill="#6B6F7B">11</text><g class="a"><text class="h-ln" style="animation-delay:1.70s" x="680" y="330" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13.5"><tspan fill="#FF6B4A">export default </tspan><tspan fill="#F3EEE6">tumit</tspan><tspan fill="#A39E95">;</tspan></text></g>
-  <g class="a"><rect class="h-caret" x="680" y="295" width="8" height="17" fill="#FFB547"/></g>
-
-  <!-- status bar -->
-  <rect y="382" width="1200" height="38" fill="url(#h-brand)"/>
-  <g transform="translate(20 393)" fill="none" stroke="#0B0D12" stroke-width="1.6" stroke-linecap="round"><circle cx="4" cy="3" r="2"/><circle cx="4" cy="13" r="2"/><circle cx="12" cy="5" r="2"/><path d="M4 5v6M12 7c0 3.2-3.5 3.6-6.6 5.2"/></g>
-  <text x="40" y="406" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" font-weight="700" fill="#0B0D12">main</text>
-  <path d="M98 401.5l3.5 3.5 7.5-8" fill="none" stroke="#0B0D12" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="116" y="406" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" font-weight="700" fill="#0B0D12">0 problems</text>
-  <text x="1178" y="406" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" font-weight="700" text-anchor="end" fill="#0B0D12">Ln 75, Col 1<tspan dx="26">UTF-8</tspan><tspan dx="26">TypeScript React</tspan><tspan dx="26">UTC+6</tspan></text>
-</g>
-<rect x=".6" y=".6" width="1198.8" height="418.8" rx="17.4" fill="none" stroke="#232836" stroke-width="1.2"/>
+<text x="436" y="400" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#EAF2FF">9 public repos</text>
+<text x="437" y="428" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#9AA8BF">@tumit75 · since Aug 2024</text>
+<g transform="translate(736 338) scale(1.1667)"><path fill="#22D3EE" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></g></g>
+<rect x="404.5" y="316.5" width="387" height="127" rx="21.5" fill="none" stroke="#1C2A4A"/>
+<rect x="404.5" y="316.5" width="387" height="127" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+</g></g><g class="a"><g class="fu" style="animation-delay:0.42s">
+<clipPath id="c6"><rect x="808" y="316" width="392" height="128" rx="22"/></clipPath>
+<rect x="808" y="316" width="392" height="128" rx="22" fill="url(#tileG)"/>
+<g clip-path="url(#c6)">
+<text x="840" y="360" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" font-weight="600" letter-spacing="2.2" fill="#7486A3">STATUS</text>
+<circle cx="848" cy="391" r="7" fill="#34D399"/><g class="a"><circle class="ping" cx="848" cy="391" r="7" fill="none" stroke="#34D399" stroke-width="2"/></g>
+<text x="866" y="400" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#EAF2FF">Open to collaborate</text>
+<text x="841" y="428" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#9AA8BF">Freelance gigs &amp; learning</text>
+<g transform="translate(1144 338) scale(1.1667)" fill="none" stroke="#22D3EE" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 6.4L20.5 12l-6.6 2.6L12 21l-1.9-6.4L3.5 12l6.6-2.6z"/></g></g>
+<rect x="808.5" y="316.5" width="391" height="127" rx="21.5" fill="none" stroke="#1C2A4A"/>
+<rect x="808.5" y="316.5" width="391" height="127" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+</g></g>
 </svg>

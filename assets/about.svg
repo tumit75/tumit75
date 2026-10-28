@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="754" viewBox="0 0 1200 754" role="img" aria-labelledby="t d">
+<title id="t">About Tumit Hasan</title>
+<desc id="d">Full Stack Developer working across MERN, Next.js and WordPress to build performant, user-friendly web apps. 1+ year of professional experience at Exprovia. Custom React / Next.js apps, WordPress theme &amp; plugin customization, and full backend development. Motto: &quot;Never stop learning because life never stops teaching.&quot; Learning: Advanced backend security &amp; authentication. Deploys on: Firebase, Vercel &amp; Netlify. Off the keyboard: Playing cricket. Inspired by: Jhankar Mahbub &amp; Rasel Mridha (mentor &amp; friend). Experience: Full Stack Developer at Exprovia for 1+ year. Working on full-stack web development spanning MERN stack applications, Next.js projects and WordPress-based client solutions, contributing to real-world production builds and client-facing deliverables.</desc>
+<style>
+@keyframes fu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes ping{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.8);opacity:0}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,26px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.fu{animation:fu .8s cubic-bezier(.2,.7,.2,1) both}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 2s ease-out infinite}
+.drift{animation:drift 16s ease-in-out infinite}
+.grow{transform-box:fill-box;transform-origin:50% 100%;animation:grow .9s cubic-bezier(.2,.7,.2,1) both}
+@media (prefers-reduced-motion: reduce){.a,.a *{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="tileG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101B33"/><stop offset="1" stop-color="#0A1122"/></linearGradient>
+<linearGradient id="brandG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<linearGradient id="brandH" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<linearGradient id="barG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+<linearGradient id="edgeG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".12"/><stop offset=".3" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<radialGradient id="glowB"><stop offset="0" stop-color="#3B82F6" stop-opacity=".38"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></radialGradient>
+<radialGradient id="glowC"><stop offset="0" stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<pattern id="gridP" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#FFFFFF" stroke-opacity=".035"/></pattern></defs>
+<g class="a"><g class="fu" style="animation-delay:0.05s">
+<clipPath id="c7"><rect x="0" y="0" width="780" height="318" rx="22"/></clipPath>
+<rect x="0" y="0" width="780" height="318" rx="22" fill="url(#tileG)"/>
+<g clip-path="url(#c7)"><circle cx="0" cy="0" r="300" fill="url(#glowB)"/><text x="40" y="50" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" font-weight="600" letter-spacing="2.2" fill="#7486A3">ABOUT ME</text><rect x="40" y="77" width="38" height="38" rx="11.4" fill="#3B82F6" fill-opacity=".14" stroke="#2A3D66"/><g transform="translate(48.55 85.55) scale(0.8708)" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5"/><path d="M16 7l5 5-5 5"/><path d="M13.5 4.5l-3 15"/></g><text x="96" y="104" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" fill="#EAF2FF">Full Stack Developer working across MERN, Next.js and</text><text x="96" y="134" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" fill="#EAF2FF">WordPress to build performant, user-friendly web apps.</text><rect x="40" y="157" width="38" height="38" rx="11.4" fill="#3B82F6" fill-opacity=".14" stroke="#2A3D66"/><g transform="translate(48.55 165.55) scale(0.8708)" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7"/><path d="M3 12.5h18"/><path d="M11 12.5v2h2v-2"/></g><text x="96" y="184" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" fill="#EAF2FF">1+ year of professional experience at Exprovia.</text><rect x="40" y="207" width="38" height="38" rx="11.4" fill="#3B82F6" fill-opacity=".14" stroke="#2A3D66"/><g transform="translate(48.55 215.55) scale(0.8708)" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l9 4.6-9 4.6-9-4.6z"/><path d="M3 12.3l9 4.6 9-4.6"/><path d="M3 16.4l9 4.6 9-4.6"/></g><text x="96" y="234" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" fill="#EAF2FF">Custom React / Next.js apps, WordPress theme &amp; plugin</text><text x="96" y="264" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" fill="#EAF2FF">customization, and full backend development.</text></g>
+<rect x="0.5" y="0.5" width="779" height="317" rx="21.5" fill="none" stroke="#1C2A4A"/>
+<rect x="0.5" y="0.5" width="779" height="317" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+</g></g><g class="a"><g class="fu" style="animation-delay:0.12s">
+<clipPath id="c8"><rect x="796" y="0" width="404" height="318" rx="22"/></clipPath>
+<rect x="796" y="0" width="404" height="318" rx="22" fill="url(#tileG)"/>
+<g clip-path="url(#c8)">
+<circle cx="1200" cy="318" r="260" fill="url(#glowC)"/>
+<text x="824" y="120" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="110" font-weight="800" fill="url(#brandG)">“</text>
+<text x="832" y="178" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#EAF2FF">Never stop learning</text><text x="832" y="216" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#EAF2FF">because life never</text><text x="832" y="254" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#EAF2FF">stops teaching.</text></g>
+<rect x="796.5" y="0.5" width="403" height="317" rx="21.5" fill="none" stroke="#1C2A4A"/>
+<rect x="796.5" y="0.5" width="403" height="317" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+</g></g><g class="a"><g class="fu" style="animation-delay:0.18s">
+<clipPath id="c9"><rect x="0" y="334" width="288" height="214" rx="22"/></clipPath>
+<rect x="0" y="334" width="288" height="214" rx="22" fill="url(#tileG)"/>
+<g clip-path="url(#c9)"><rect x="28" y="362" width="46" height="46" rx="13.799999999999999" fill="#3B82F6" fill-opacity=".14" stroke="#2A3D66"/><g transform="translate(38.35 372.35) scale(1.0542)" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7.5 3v5.6c0 4.6-3.2 8.1-7.5 9.4-4.3-1.3-7.5-4.8-7.5-9.4V6z"/><path d="M8.8 12.2l2.2 2.2 4.3-4.4"/></g>
+<text x="28" y="442" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" font-weight="600" letter-spacing="2.2" fill="#7486A3">LEARNING</text>
+<text x="28" y="476" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">Advanced backend</text><text x="28" y="503" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">security &amp;</text><text x="28" y="530" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="500" fill="#9AA8BF">authentication</text></g>
+<rect x="0.5" y="334.5" width="287" height="213" rx="21.5" fill="none" stroke="#1C2A4A"/>
+<rect x="0.5" y="334.5" width="287" height="213" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+</g></g><g class="a"><g class="fu" style="animation-delay:0.24s">
+<clipPath id="c10"><rect x="304" y="334" width="288" height="214" rx="22"/></clipPath>
+<rect x="304" y="334" width="288" height="214" rx="22" fill="url(#tileG)"/>
+<g clip-path="url(#c10)"><rect x="332" y="362" width="46" height="46" rx="13.799999999999999" fill="#3B82F6" fill-opacity=".14" stroke="#2A3D66"/><g transform="translate(342.35 372.35) scale(1.0542)" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18.5a4.5 4.5 0 0 1-.6-8.96A6 6 0 0 1 17.9 8.6a4.95 4.95 0 0 1-.4 9.9z"/><path d="M12 16.2v-5"/><path d="M9.6 13.4L12 11l2.4 2.4"/></g>
+<text x="332" y="442" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" font-weight="600" letter-spacing="2.2" fill="#7486A3">DEPLOYS ON</text>
+<text x="332" y="476" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">Firebase, Vercel &amp;</text><text x="332" y="503" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">Netlify</text></g>
+<rect x="304.5" y="334.5" width="287" height="213" rx="21.5" fill="none" stroke="#1C2A4A"/>
+<rect x="304.5" y="334.5" width="287" height="213" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+</g></g><g class="a"><g class="fu" style="animation-delay:0.30s">
+<clipPath id="c11"><rect x="608" y="334" width="288" height="214" rx="22"/></clipPath>
+<rect x="608" y="334" width="288" height="214" rx="22" fill="url(#tileG)"/>
+<g clip-path="url(#c11)"><rect x="636" y="362" width="46" height="46" rx="13.799999999999999" fill="#3B82F6" fill-opacity=".14" stroke="#2A3D66"/><g transform="translate(646.35 372.35) scale(1.0542)" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M8.6 4.3c1.6 2.3 2.4 4.9 2.4 7.7s-.8 5.4-2.4 7.7"/><path d="M15.4 4.3c-1.6 2.3-2.4 4.9-2.4 7.7s.8 5.4 2.4 7.7"/></g>
+<text x="636" y="442" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" font-weight="600" letter-spacing="2.2" fill="#7486A3">OFF THE KEYBOARD</text>
+<text x="636" y="476" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">Playing cricket</text></g>
+<rect x="608.5" y="334.5" width="287" height="213" rx="21.5" fill="none" stroke="#1C2A4A"/>
+<rect x="608.5" y="334.5" width="287" height="213" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+</g></g><g class="a"><g class="fu" style="animation-delay:0.36s">
+<clipPath id="c12"><rect x="912" y="334" width="288" height="214" rx="22"/></clipPath>
+<rect x="912" y="334" width="288" height="214" rx="22" fill="url(#tileG)"/>
+<g clip-path="url(#c12)"><rect x="940" y="362" width="46" height="46" rx="13.799999999999999" fill="#3B82F6" fill-opacity=".14" stroke="#2A3D66"/><g transform="translate(950.35 372.35) scale(1.0542)" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 6.4L20.5 12l-6.6 2.6L12 21l-1.9-6.4L3.5 12l6.6-2.6z"/></g>
+<text x="940" y="442" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" font-weight="600" letter-spacing="2.2" fill="#7486A3">INSPIRED BY</text>
+<text x="940" y="476" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">Jhankar Mahbub &amp;</text><text x="940" y="503" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#EAF2FF">Rasel Mridha</text><text x="940" y="530" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="500" fill="#9AA8BF">(mentor &amp; friend)</text></g>
+<rect x="912.5" y="334.5" width="287" height="213" rx="21.5" fill="none" stroke="#1C2A4A"/>
+<rect x="912.5" y="334.5" width="287" height="213" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+</g></g><g class="a"><g class="fu" style="animation-delay:0.45s">
+<clipPath id="c13"><rect x="0" y="564" width="1200" height="190" rx="22"/></clipPath>
+<rect x="0" y="564" width="1200" height="190" rx="22" fill="url(#tileG)"/>
+<g clip-path="url(#c13)">
+<circle cx="1200" cy="564" r="320" fill="url(#glowB)"/>
+<text x="40" y="614" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" font-weight="600" letter-spacing="2.2" fill="#7486A3">EXPERIENCE</text>
+<text x="40" y="660" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#EAF2FF">Full Stack Developer</text>
+<text x="41" y="692" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="17" font-weight="600" fill="#22D3EE">Exprovia · 1+ year</text>
+<path d="M470 596V722" stroke="#2A3D66"/>
+<text x="504" y="634" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" fill="#9AA8BF">Working on full-stack web development spanning MERN stack</text><text x="504" y="664" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" fill="#9AA8BF">applications, Next.js projects and WordPress-based client</text><text x="504" y="694" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" fill="#9AA8BF">solutions, contributing to real-world production builds and</text><text x="504" y="724" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" fill="#9AA8BF">client-facing deliverables.</text></g>
+<rect x="0.5" y="564.5" width="1199" height="189" rx="21.5" fill="none" stroke="#1C2A4A"/>
+<rect x="0.5" y="564.5" width="1199" height="189" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+</g></g>
+</svg>

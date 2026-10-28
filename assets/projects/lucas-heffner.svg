@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="320" viewBox="0 0 590 320" role="img" aria-labelledby="t d">
+<title id="t">Lucas Heffner — Author platform</title>
+<desc id="d">Author platform for Lucas Heffner and Up Armor Publishing, with the Cut the Crap book, resources, community and a store. Built with React, TypeScript, Tailwind, Motion, Express. Live at lucas-heffner.vercel.app. Last updated Sep 9, 2026.</desc>
+<style>
+@keyframes fu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes ping{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.8);opacity:0}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,26px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.fu{animation:fu .8s cubic-bezier(.2,.7,.2,1) both}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 2s ease-out infinite}
+.drift{animation:drift 16s ease-in-out infinite}
+.grow{transform-box:fill-box;transform-origin:50% 100%;animation:grow .9s cubic-bezier(.2,.7,.2,1) both}
+@media (prefers-reduced-motion: reduce){.a,.a *{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="tileG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101B33"/><stop offset="1" stop-color="#0A1122"/></linearGradient>
+<linearGradient id="brandG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<linearGradient id="brandH" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<linearGradient id="barG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+<linearGradient id="edgeG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".12"/><stop offset=".3" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<radialGradient id="glowB"><stop offset="0" stop-color="#3B82F6" stop-opacity=".38"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></radialGradient>
+<radialGradient id="glowC"><stop offset="0" stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<pattern id="gridP" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#FFFFFF" stroke-opacity=".035"/></pattern><linearGradient id="accG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<radialGradient id="accGlow"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".3"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient></defs>
+<g class="a"><g class="fu" style="animation-delay:0.05s">
+<clipPath id="c37"><rect x="0" y="0" width="590" height="320" rx="22"/></clipPath>
+<rect x="0" y="0" width="590" height="320" rx="22" fill="url(#tileG)"/>
+<g clip-path="url(#c37)">
+<circle cx="590" cy="0" r="260" fill="url(#accGlow)"/>
+<circle cx="56" cy="62" r="28" fill="url(#accG)"/>
+<text x="56" y="71" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="26" font-weight="800" text-anchor="middle" fill="#04101F">L</text>
+<text x="100" y="58" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#EAF2FF">Lucas Heffner</text>
+<text x="101" y="84" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#8B5CF6">AUTHOR PLATFORM</text>
+<rect x="478" y="36" width="84" height="30" rx="15" fill="#34D399" fill-opacity=".12" stroke="#34D399" stroke-opacity=".45"/>
+<circle cx="496" cy="51" r="4" fill="#34D399"/><g class="a"><circle class="ping" cx="496" cy="51" r="4" fill="none" stroke="#34D399" stroke-width="1.6"/></g>
+<text x="508" y="56" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13" font-weight="700" fill="#34D399">LIVE</text>
+<path d="M542 56l7-7M543 49h6v6" fill="none" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="134" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" fill="#9AA8BF">Author platform for Lucas Heffner and Up Armor</text><text x="28" y="162" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" fill="#9AA8BF">Publishing, with the Cut the Crap book,</text><text x="28" y="190" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" fill="#9AA8BF">resources, community and a store.</text>
+<rect x="28" y="214" width="67" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.04" stroke="#2A3D66"/><text x="61.5" y="233.9" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" text-anchor="middle" fill="#EAF2FF">React</text><rect x="103" y="214" width="111" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.04" stroke="#2A3D66"/><text x="158.5" y="233.9" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" text-anchor="middle" fill="#EAF2FF">TypeScript</text><rect x="222" y="214" width="93" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.04" stroke="#2A3D66"/><text x="268.5" y="233.9" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" text-anchor="middle" fill="#EAF2FF">Tailwind</text><rect x="323" y="214" width="76" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.04" stroke="#2A3D66"/><text x="361" y="233.9" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" text-anchor="middle" fill="#EAF2FF">Motion</text><rect x="407" y="214" width="85" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.04" stroke="#2A3D66"/><text x="449.5" y="233.9" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" text-anchor="middle" fill="#EAF2FF">Express</text>
+<path d="M28 262H562" stroke="#1C2A4A"/>
+<text x="28" y="294" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" fill="#7486A3">lucas-heffner.vercel.app</text>
+<text x="562" y="294" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" text-anchor="end" fill="#7486A3"><tspan fill="#3178c6">●</tspan> TypeScript · updated Sep 9, 2026</text></g>
+<rect x="0.5" y="0.5" width="589" height="319" rx="21.5" fill="none" stroke="#1C2A4A"/>
+<rect x="0.5" y="0.5" width="589" height="319" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+</g></g>
+</svg>
