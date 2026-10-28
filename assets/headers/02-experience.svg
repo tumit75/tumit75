@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="78" viewBox="0 0 1000 78" role="img" aria-labelledby="s02-t">
+<title id="s02-t">02 — Experience</title>
+<style>
+@keyframes s02-in{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}
+@keyframes s02-draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes s02-ping{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.6);opacity:0}}
+@keyframes s02-sheen{0%{transform:translateX(0)}55%,100%{transform:translateX(1300px)}}
+.s02-in{animation:s02-in .7s cubic-bezier(.2,.7,.2,1) .1s both}
+.s02-draw{stroke-dasharray:1;animation:s02-draw 1.2s cubic-bezier(.6,0,.2,1) .4s both}
+.s02-ping{transform-box:fill-box;transform-origin:center;animation:s02-ping 2s ease-out infinite}
+.s02-sheen{animation:s02-sheen 9s ease-in-out 1.5s infinite}
+@media (prefers-reduced-motion: reduce){.a,.a *{animation:none!important}}</style>
+<defs>
+  <clipPath id="s02-clip"><rect width="1000" height="78" rx="14"/></clipPath>
+  <linearGradient id="s02-brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFB547"/><stop offset="1" stop-color="#FF6B4A"/></linearGradient>
+  <linearGradient id="s02-ln" gradientUnits="userSpaceOnUse" x1="226" y1="0" x2="940" y2="0"><stop offset="0" stop-color="#FFB547" stop-opacity=".9"/><stop offset="1" stop-color="#FF6B4A" stop-opacity=".08"/></linearGradient>
+  <linearGradient id="s02-sheen-g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F3EEE6" stop-opacity="0"/><stop offset=".5" stop-color="#F3EEE6" stop-opacity=".05"/><stop offset="1" stop-color="#F3EEE6" stop-opacity="0"/></linearGradient>
+</defs>
+<g clip-path="url(#s02-clip)">
+  <rect width="1000" height="78" fill="#10131A"/>
+  <rect width="1000" height="30" fill="#0B0D12"/>
+  <rect width="165" height="30" fill="#10131A"/>
+  <rect width="165" height="2" fill="url(#s02-brand)"/>
+  <rect x="165" y="29.5" width="835" height="1" fill="#232836"/>
+  <circle cx="20" cy="15.5" r="4" fill="#E9D8B8"/>
+  <text x="32" y="20" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12" fill="#F3EEE6">experience.md</text>
+  <text x="147" y="20" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="13" text-anchor="middle" fill="#6B6F7B">×</text>
+  <text x="980" y="20" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="11" text-anchor="end" fill="#6B6F7B">tumit75 › README.md › experience</text>
+  <g class="a" transform="skewX(-18)"><rect class="s02-sheen" x="-240" y="30" width="150" height="48" fill="url(#s02-sheen-g)"/></g>
+  <g class="a"><g class="s02-in">
+    <text x="24" y="62" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="15" font-weight="700" fill="#FFB547">02</text>
+    <text x="62" y="63" font-family="'Segoe UI','Inter',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="23" font-weight="800" fill="#F3EEE6">Experience</text>
+  </g></g>
+  <g class="a"><path class="s02-draw" pathLength="1" d="M226 55H940" stroke="url(#s02-ln)" stroke-width="1.3" fill="none"/></g>
+  <circle cx="960" cy="55" r="4" fill="#FF6B4A"/>
+  <g class="a"><circle class="s02-ping" cx="960" cy="55" r="4" fill="none" stroke="#FF6B4A" stroke-width="1.4"/></g>
+</g>
+<rect x=".6" y=".6" width="998.8" height="76.8" rx="13.4" fill="none" stroke="#232836" stroke-width="1.2"/>
+</svg>

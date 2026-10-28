@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="168" viewBox="0 0 1200 168" role="img" aria-labelledby="f-t">
+<title id="f-t">Thanks for stopping by. Tumit Hasan, Full Stack Developer, Jashore, Bangladesh.</title>
+<style>
+@keyframes f-up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes f-blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.f-up{animation:f-up .6s cubic-bezier(.2,.7,.2,1) both}
+.f-caret{animation:f-blink 1.05s step-end infinite}
+@media (prefers-reduced-motion: reduce){.a,.a *{animation:none!important}}</style>
+<defs><clipPath id="f-clip"><rect width="1200" height="168" rx="18"/></clipPath><linearGradient id="f-brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFB547"/><stop offset="1" stop-color="#FF6B4A"/></linearGradient></defs>
+<g clip-path="url(#f-clip)">
+  <rect width="1200" height="168" fill="#10131A"/>
+  <g class="a"><g class="f-up" style="animation-delay:.1s">
+    <text x="40" y="52" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="15"><tspan fill="#FFB547" font-weight="700">tumit@jashore</tspan><tspan fill="#6B6F7B">:~$ </tspan><tspan fill="#F3EEE6">git commit -m </tspan><tspan fill="#FFB547">"thanks for stopping by"</tspan></text>
+  </g></g>
+  <g class="a"><g class="f-up" style="animation-delay:.5s">
+    <path d="M42 77l4 4 8-9" fill="none" stroke="#7BD88F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="66" y="82" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="14" fill="#A39E95">Tumit Hasan · Full Stack Developer · always open to collaborations &amp; freelance work</text>
+  </g></g>
+  <g class="a"><g class="f-up" style="animation-delay:.8s">
+    <text x="40" y="112" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="15"><tspan fill="#FFB547" font-weight="700">tumit@jashore</tspan><tspan fill="#6B6F7B">:~$</tspan><tspan class="f-caret" dx="9" fill="#FFB547">▋</tspan></text>
+  </g></g>
+  <rect y="134" width="1200" height="34" fill="url(#f-brand)"/>
+  <text x="22" y="156" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" font-weight="700" fill="#0B0D12">github.com/tumit75</text>
+  <text x="1178" y="156" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,Menlo,'Courier New',monospace" font-size="12.5" font-weight="700" text-anchor="end" fill="#0B0D12">Jashore, Bangladesh  ·  designed &amp; built with intention</text>
+</g>
+<rect x=".6" y=".6" width="1198.8" height="166.8" rx="17.4" fill="none" stroke="#232836" stroke-width="1.2"/>
+</svg>
