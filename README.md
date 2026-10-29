@@ -55,11 +55,7 @@
 
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center" width="170"><img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="78" alt="Pull Shark achievement" /><br/><sub><b>Pull Shark</b></sub></td>
-  </tr>
-</table>
+<img src="assets/cards/achievements.svg" width="100%" alt="GitHub achievements on tumit75" />
 
 <sub>GitHub achievements, as shown on my <a href="https://github.com/tumit75?tab=achievements">profile</a>.</sub>
 
@@ -70,29 +66,23 @@
 <a name="projects"></a>
 <img src="assets/v2/headers/04-projects.svg" width="100%" alt="04 — Projects" />
 
-<img src="assets/v2/icons/folder.svg" width="20" height="20" align="top" alt="" />&nbsp; **SIZANBD** &nbsp; <a href="https://sizanbd.vercel.app"><img src="assets/v2/links/live.svg" height="26" align="top" alt="Live demo" /></a> <a href="https://github.com/tumit75/sizanbd"><img src="assets/v2/links/code.svg" height="26" align="top" alt="Source code" /></a><br/>
-Gadget store for official, verified phones, laptops, audio and accessories, backed by a showroom in Dhaka.<br/>
-<sub>React · TypeScript · React Query · Zustand · Tailwind CSS · Express</sub>
+<a href="https://sizanbd.vercel.app"><img src="assets/cards/projects/sizanbd.svg" width="100%" alt="SIZANBD — gadget store for official, verified phones, laptops, audio and accessories" /></a>
+<a href="https://sizanbd.vercel.app"><img src="assets/v2/links/live.svg" height="26" alt="Live demo" /></a> <a href="https://github.com/tumit75/sizanbd"><img src="assets/v2/links/code.svg" height="26" alt="Source code" /></a>
 
-<img src="assets/v2/icons/folder.svg" width="20" height="20" align="top" alt="" />&nbsp; **Mint Homes** &nbsp; <a href="https://mint-homes-delta.vercel.app"><img src="assets/v2/links/live.svg" height="26" align="top" alt="Live demo" /></a> <a href="https://github.com/tumit75/mint-homes"><img src="assets/v2/links/code.svg" height="26" align="top" alt="Source code" /></a><br/>
-Long Island real estate site: search properties, meet licensed agents and explore client services in Nassau and Suffolk.<br/>
-<sub>React · TypeScript · Tailwind CSS · Motion · Express</sub>
+<a href="https://mint-homes-delta.vercel.app"><img src="assets/cards/projects/mint-homes.svg" width="100%" alt="Mint Homes — Long Island real estate site" /></a>
+<a href="https://mint-homes-delta.vercel.app"><img src="assets/v2/links/live.svg" height="26" alt="Live demo" /></a> <a href="https://github.com/tumit75/mint-homes"><img src="assets/v2/links/code.svg" height="26" alt="Source code" /></a>
 
-<img src="assets/v2/icons/folder.svg" width="20" height="20" align="top" alt="" />&nbsp; **Lucas Heffner** &nbsp; <a href="https://lucas-heffner.vercel.app"><img src="assets/v2/links/live.svg" height="26" align="top" alt="Live demo" /></a> <a href="https://github.com/tumit75/lucas-heffner"><img src="assets/v2/links/code.svg" height="26" align="top" alt="Source code" /></a><br/>
-Author platform for Lucas Heffner and Up Armor Publishing, with the Cut the Crap book, resources, community and a store.<br/>
-<sub>React · TypeScript · Tailwind CSS · Motion · Express</sub>
+<a href="https://lucas-heffner.vercel.app"><img src="assets/cards/projects/lucas-heffner.svg" width="100%" alt="Lucas Heffner — author platform for Lucas Heffner and Up Armor Publishing" /></a>
+<a href="https://lucas-heffner.vercel.app"><img src="assets/v2/links/live.svg" height="26" alt="Live demo" /></a> <a href="https://github.com/tumit75/lucas-heffner"><img src="assets/v2/links/code.svg" height="26" alt="Source code" /></a>
 
-<img src="assets/v2/icons/folder.svg" width="20" height="20" align="top" alt="" />&nbsp; **Cut The Crap** &nbsp; <a href="https://cat-the-carp.vercel.app"><img src="assets/v2/links/live.svg" height="26" align="top" alt="Live demo" /></a> <a href="https://github.com/tumit75/cat-the-carp"><img src="assets/v2/links/code.svg" height="26" align="top" alt="Source code" /></a><br/>
-Sales hub for the Cut The Crap book with a library, Founder's Edition, store, cart, checkout and customer portal.<br/>
-<sub>React · TypeScript · Tailwind CSS · Motion · Express</sub>
+<a href="https://cat-the-carp.vercel.app"><img src="assets/cards/projects/cat-the-carp.svg" width="100%" alt="Cut The Crap — book sales hub with store, cart, checkout and customer portal" /></a>
+<a href="https://cat-the-carp.vercel.app"><img src="assets/v2/links/live.svg" height="26" alt="Live demo" /></a> <a href="https://github.com/tumit75/cat-the-carp"><img src="assets/v2/links/code.svg" height="26" alt="Source code" /></a>
 
-<img src="assets/v2/icons/folder.svg" width="20" height="20" align="top" alt="" />&nbsp; **Start SAH** &nbsp; <a href="https://start-two-nu.vercel.app"><img src="assets/v2/links/live.svg" height="26" align="top" alt="Live demo" /></a> <a href="https://github.com/tumit75/start"><img src="assets/v2/links/code.svg" height="26" align="top" alt="Source code" /></a><br/>
-Site for a training and coaching organisation, built in Next.js to agree the visual identity before the WordPress build.<br/>
-<sub>Next.js · React · TypeScript · Tailwind CSS</sub>
+<a href="https://start-two-nu.vercel.app"><img src="assets/cards/projects/start.svg" width="100%" alt="Start SAH — site for a training and coaching organisation" /></a>
+<a href="https://start-two-nu.vercel.app"><img src="assets/v2/links/live.svg" height="26" alt="Live demo" /></a> <a href="https://github.com/tumit75/start"><img src="assets/v2/links/code.svg" height="26" alt="Source code" /></a>
 
-<img src="assets/v2/icons/folder.svg" width="20" height="20" align="top" alt="" />&nbsp; **Pop City Popcorn** &nbsp; <a href="https://double-good.vercel.app"><img src="assets/v2/links/live.svg" height="26" align="top" alt="Live demo" /></a> <a href="https://github.com/tumit75/DoubleGood"><img src="assets/v2/links/code.svg" height="26" align="top" alt="Source code" /></a><br/>
-Responsive fundraising homepage for Pop City Gourmet Popcorn that helps teams raise money and build community.<br/>
-<sub>React · TypeScript · Tailwind CSS · Motion</sub>
+<a href="https://double-good.vercel.app"><img src="assets/cards/projects/doublegood.svg" width="100%" alt="Pop City Popcorn — fundraising homepage for Pop City Gourmet Popcorn" /></a>
+<a href="https://double-good.vercel.app"><img src="assets/v2/links/live.svg" height="26" alt="Live demo" /></a> <a href="https://github.com/tumit75/DoubleGood"><img src="assets/v2/links/code.svg" height="26" alt="Source code" /></a>
 
 <p align="center"><sub>See all repositories on my <a href="https://github.com/tumit75?tab=repositories">GitHub profile</a>.</sub></p>
 
@@ -132,8 +122,8 @@ Responsive fundraising homepage for Pop City Gourmet Popcorn that helps teams ra
 <img src="assets/v2/headers/07-stats.svg" width="100%" alt="07 — GitHub Stats" />
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tumit75&show_icons=true&rank_icon=github&bg_color=0B0F0A&title_color=9AE600&icon_color=9AE600&text_color=E6EDE0&ring_color=9AE600&border_color=1E2A18&border_radius=14" height="170" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tumit75&layout=compact&langs_count=8&bg_color=0B0F0A&title_color=9AE600&text_color=E6EDE0&border_color=1E2A18&border_radius=14" height="170" alt="Most used languages" />
+  <img src="assets/cards/stats.svg" height="170" alt="GitHub stats" />
+  <img src="assets/cards/languages.svg" height="170" alt="Most used languages" />
 </p>
 
 <p align="center">

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="158" viewBox="0 0 820 158" role="img" aria-labelledby="t d">
+<title id="t">Pop City Popcorn — Fundraising</title>
+<desc id="d">Responsive fundraising homepage for Pop City Gourmet Popcorn that helps teams raise money and build community. Built with React, TypeScript, Tailwind CSS, Motion. Live at double-good.vercel.app. Last updated Sep 14, 2026.</desc>
+<style>
+@keyframes rise{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}
+@keyframes sweep{0%{transform:translateX(0)}55%,100%{transform:translateX(1120px)}}
+@keyframes seq{0%,100%{opacity:.25}30%{opacity:1}}
+@keyframes ping{0%{transform:scale(1);opacity:.9}100%{transform:scale(2.6);opacity:0}}
+@keyframes draw{from{stroke-dashoffset:var(--len)}to{stroke-dashoffset:var(--off)}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) .1s both}
+.sweep{animation:sweep 8s ease-in-out 1s infinite}
+.seq{animation:seq 1.5s ease-in-out infinite}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 1.8s ease-out infinite}
+.grow{transform-box:fill-box;transform-origin:left;animation:grow 1s cubic-bezier(.2,.7,.2,1) .3s both}
+@media (prefers-reduced-motion: reduce){.a,.a *{animation:none!important}}</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E130D"/><stop offset="1" stop-color="#070908"/></linearGradient>
+<pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#F2F6EE" stroke-opacity=".035" stroke-width=".6"/></pattern>
+<radialGradient id="glow"><stop offset="0" stop-color="#9AE600" stop-opacity=".18"/><stop offset="1" stop-color="#9AE600" stop-opacity="0"/></radialGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F2F6EE" stop-opacity="0"/><stop offset=".5" stop-color="#F2F6EE" stop-opacity=".05"/><stop offset="1" stop-color="#F2F6EE" stop-opacity="0"/></linearGradient><clipPath id="clip"><rect width="820" height="158" rx="14"/></clipPath></defs>
+<g clip-path="url(#clip)">
+  <rect width="820" height="158" fill="url(#bg)"/>
+  <rect width="820" height="158" fill="url(#grid)"/>
+  <circle cx="40" cy="30" r="158" fill="url(#glow)"/>
+  <rect width="3" height="158" fill="#9AE600"/>
+  <g class="a" transform="skewX(-18)"><rect class="sweep" x="-260" y="0" width="160" height="158" fill="url(#sheen)"/></g>
+  
+<rect x="14" y="14" width="44" height="44" rx="10" fill="#070908" stroke="#3D6300" stroke-width="1.2"/>
+<g transform="translate(24 24)" fill="none" stroke="#9AE600" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5A2.5 2.5 0 0 1 5.5 5H9l2 2.5h7.5A2.5 2.5 0 0 1 21 10v7.5a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 17.5z"/><path d="M3 10.5h18"/></g>
+<g class="a"><g class="rise">
+  <text x="78" y="30" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" letter-spacing="3" fill="#9AE600">06<tspan fill="#8E9A88" dx="8">//  FUNDRAISING</tspan></text>
+  <text x="77" y="55" font-family="'Segoe UI','Inter',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="23" font-weight="800" fill="#F2F6EE">Pop City Popcorn</text>
+</g></g>
+<circle cx="700" cy="26" r="4" fill="#9AE600"/><g class="a"><circle class="ping" cx="700" cy="26" r="4" fill="none" stroke="#9AE600" stroke-width="1.4"/></g>
+<text x="712" y="30" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#9AE600">LIVE</text>
+<g class="a" fill="#9AE600"><rect class="seq" style="animation-delay:0s" x="762" y="22" width="8" height="8" rx="1.5"/><rect class="seq" style="animation-delay:0.25s" x="774" y="22" width="8" height="8" rx="1.5"/><rect class="seq" style="animation-delay:0.5s" x="786" y="22" width="8" height="8" rx="1.5"/></g>
+<text x="798" y="52" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" text-anchor="end" fill="#8E9A88">double-good.vercel.app</text>
+<text x="77" y="82" font-family="'Segoe UI','Inter',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="14" fill="#C9D3C2">Responsive fundraising homepage for Pop City Gourmet Popcorn that helps teams raise money and</text><text x="77" y="102" font-family="'Segoe UI','Inter',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="14" fill="#C9D3C2">build community.</text>
+<rect x="77" y="118" width="53" height="22" rx="5" fill="#070908" stroke="#3D6300"/><text x="103.5" y="133" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" text-anchor="middle" fill="#BBF451">React</text><rect x="138" y="118" width="87" height="22" rx="5" fill="#070908" stroke="#3D6300"/><text x="181.5" y="133" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" text-anchor="middle" fill="#BBF451">TypeScript</text><rect x="233" y="118" width="101" height="22" rx="5" fill="#070908" stroke="#3D6300"/><text x="283.5" y="133" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" text-anchor="middle" fill="#BBF451">Tailwind CSS</text><rect x="342" y="118" width="59" height="22" rx="5" fill="#070908" stroke="#3D6300"/><text x="371.5" y="133" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" text-anchor="middle" fill="#BBF451">Motion</text>
+<text x="798" y="133" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" text-anchor="end" fill="#8E9A88"><tspan fill="#3178c6">●</tspan> TypeScript · updated Sep 14, 2026</text>
+</g>
+<rect x=".6" y=".6" width="818.8" height="156.8" rx="13.4" fill="none" stroke="#1E2A18" stroke-width="1.2"/>
+</svg>
