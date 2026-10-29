@@ -1,39 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="176" viewBox="0 0 1200 176" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="t d">
 <title id="t">Thanks for stopping by</title>
-<desc id="d">If you like my work, consider starring my repositories. Always open to collaborations, freelance gigs and learning opportunities. @tumit75 · Jashore, Bangladesh.</desc>
+<desc id="d">Thanks for stopping by! If you like my work, consider starring my repositories. Always open to collaborations, freelance gigs and learning opportunities. @tumit75, Jashore, Bangladesh.</desc>
 <style>
-@keyframes fu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
-@keyframes ping{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.8);opacity:0}}
-@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,26px)}}
+@keyframes fu{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
 @keyframes spin{to{transform:rotate(360deg)}}
+@keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@keyframes ping{0%{transform:scale(1);opacity:.85}100%{transform:scale(2.8);opacity:0}}
+@keyframes wave{to{transform:translateX(-1200px)}}
+@keyframes da{0%,100%{transform:translate(0,0)}50%{transform:translate(70px,34px)}}
+@keyframes db{0%,100%{transform:translate(0,0)}50%{transform:translate(-80px,26px)}}
+@keyframes run{to{stroke-dashoffset:-1000}}
+@keyframes pulse{0%,100%{opacity:.2}50%{opacity:.85}}
 @keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
-.fu{animation:fu .8s cubic-bezier(.2,.7,.2,1) both}
+@keyframes draw{from{stroke-dasharray:0 100}}
+.fu{animation:fu .9s cubic-bezier(.2,.7,.2,1) both}
+.tw{animation:tw 3s ease-in-out infinite}
+.bob{animation:bob 4s ease-in-out infinite}
 .ping{transform-box:fill-box;transform-origin:center;animation:ping 2s ease-out infinite}
-.drift{animation:drift 16s ease-in-out infinite}
-.grow{transform-box:fill-box;transform-origin:50% 100%;animation:grow .9s cubic-bezier(.2,.7,.2,1) both}
+.wave{animation:wave 12s linear infinite}
+.da{animation:da 18s ease-in-out infinite}
+.db{animation:db 22s ease-in-out infinite}
+.run{animation:run 7s linear infinite}
+.pulse{animation:pulse 3s ease-in-out infinite}
+.grow{transform-box:fill-box;transform-origin:50% 100%;animation:grow 1s cubic-bezier(.2,.7,.2,1) both}
 @media (prefers-reduced-motion: reduce){.a,.a *{animation:none!important}}
 </style>
 <defs>
-<linearGradient id="tileG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101B33"/><stop offset="1" stop-color="#0A1122"/></linearGradient>
-<linearGradient id="brandG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
-<linearGradient id="brandH" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
-<linearGradient id="barG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
-<linearGradient id="edgeG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".12"/><stop offset=".3" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
-<radialGradient id="glowB"><stop offset="0" stop-color="#3B82F6" stop-opacity=".38"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></radialGradient>
-<radialGradient id="glowC"><stop offset="0" stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
-<pattern id="gridP" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#FFFFFF" stroke-opacity=".035"/></pattern></defs>
-<g class="a"><g class="fu" style="animation-delay:0.00s">
-<clipPath id="c29"><rect x="0" y="0" width="1200" height="176" rx="22"/></clipPath>
-<rect x="0" y="0" width="1200" height="176" rx="22" fill="url(#tileG)"/>
-<g clip-path="url(#c29)">
-<rect width="1200" height="176" fill="url(#gridP)"/>
-<g class="a"><g class="drift"><circle cx="1000" cy="0" r="320" fill="url(#glowB)"/></g></g>
-<circle cx="150" cy="176" r="300" fill="url(#glowC)"/>
-<text x="600" y="70" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="38" font-weight="800" text-anchor="middle" letter-spacing="-0.5" fill="#EAF2FF">Thanks for stopping by!</text>
-<text x="600" y="108" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" text-anchor="middle" fill="#9AA8BF">If you like my work, consider starring my repositories.</text>
-<text x="600" y="138" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" text-anchor="middle" fill="#7486A3">Always open to collaborations, freelance gigs and learning opportunities.</text>
-<rect x="0" y="171" width="1200" height="5" fill="url(#brandH)"/></g>
-<rect x="0.5" y="0.5" width="1199" height="175" rx="21.5" fill="none" stroke="#1C2A4A"/>
-<rect x="0.5" y="0.5" width="1199" height="175" rx="21.5" fill="none" stroke="url(#edgeG)"/>
+<linearGradient id="panelG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#161030"/><stop offset="1" stop-color="#0F0B1E"/></linearGradient>
+<linearGradient id="neonG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
+<linearGradient id="neonH" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
+<linearGradient id="neon3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A855F7"/><stop offset=".5" stop-color="#EC4899"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<linearGradient id="neon3H" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#7C3AED"/><stop offset=".5" stop-color="#DB2777"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+<linearGradient id="barG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EC4899"/><stop offset="1" stop-color="#A855F7"/></linearGradient>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+<filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+
+<clipPath id="fc"><rect width="1200" height="250" rx="30"/></clipPath>
+<g clip-path="url(#fc)">
+<g>
+<g class="a"><path class="wave" style="animation-duration:14s" d="M0 62 Q150 36 300 62 Q450 88 600 62 Q750 36 900 62 Q1050 88 1200 62 Q1350 36 1500 62 Q1650 88 1800 62 Q1950 36 2100 62 Q2250 88 2400 62 Q2550 36 2700 62 V250 H0 Z" fill="url(#neon3H)" fill-opacity=".35"/></g>
+<g class="a"><path class="wave" style="animation-duration:9s;animation-direction:reverse" d="M0 80 Q150 100 300 80 Q450 60 600 80 Q750 100 900 80 Q1050 60 1200 80 Q1350 100 1500 80 Q1650 60 1800 80 Q1950 100 2100 80 Q2250 60 2400 80 Q2550 100 2700 80 V250 H0 Z" fill="url(#neon3H)" fill-opacity=".9"/></g>
+</g>
+<rect y="110" width="1200" height="140" fill="url(#neon3H)"/>
+<g class="a"><g class="fu" style="animation-delay:.2s">
+<text x="600" y="150" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="44" font-weight="900" text-anchor="middle" letter-spacing="-1" fill="#FFFFFF">Thanks for stopping by!</text>
+<text x="600" y="188" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" text-anchor="middle" fill="#FFFFFF">If you like my work, consider starring my repositories.</text>
+<text x="600" y="218" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" text-anchor="middle" fill="#FFFFFF">Always open to collaborations, freelance gigs and learning opportunities.</text>
 </g></g>
+</g>
 </svg>
