@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="52" viewBox="0 0 210 52" role="img" aria-labelledby="thb-facebook-t">
+<title id="thb-facebook-t">Facebook</title>
+<style>
+@keyframes thb-facebook-glow{0%,100%{opacity:.1}50%{opacity:.45}}
+.thb-facebook-glow{animation:thb-facebook-glow 3s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){.a,.a *{animation:none!important}.motion{display:none}}
+</style>
+<defs><filter id="thb-facebook-blur" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="3.5"/></filter></defs>
+<g class="a"><rect class="thb-facebook-glow motion" x="4" y="4" width="202" height="44" rx="12" fill="#9AE600" filter="url(#thb-facebook-blur)" opacity=".1"/></g>
+<rect x="4" y="4" width="202" height="44" rx="12" fill="#0E130D" stroke="#3D6300" stroke-width="1.3"/>
+<rect x="12" y="10" width="36" height="32" rx="8" fill="#070908" stroke="#1E2A18"/>
+<path transform="translate(21 17) scale(0.7500)" fill="#9AE600" d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/>
+<text x="60" y="31" font-family="'Segoe UI','Inter',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#F2F6EE">Facebook</text>
+<path d="M179 21.5l5 4.5-5 4.5M186 21.5l5 4.5-5 4.5" fill="none" stroke="#9AE600" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

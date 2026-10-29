@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="64" viewBox="0 0 820 64" role="img" aria-labelledby="ths02-t">
+<title id="ths02-t">02 — Experience</title>
+<style>
+@keyframes ths02-rise{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}
+@keyframes ths02-draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes ths02-run{0%{transform:translateX(0);opacity:0}10%,85%{opacity:1}100%{transform:translateX(528px);opacity:0}}
+@keyframes ths02-sweep{0%{transform:translateX(0)}55%,100%{transform:translateX(1120px)}}
+@keyframes ths02-blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes ths02-seq{0%,100%{opacity:.25}30%{opacity:1}}
+.ths02-in{animation:ths02-rise .7s cubic-bezier(.2,.7,.2,1) .1s both}
+.ths02-line{stroke-dasharray:1;animation:ths02-draw 1.2s cubic-bezier(.6,0,.2,1) .4s both}
+.ths02-run{animation:ths02-run 4.5s ease-in-out 1.6s infinite}
+.ths02-sweep{animation:ths02-sweep 8s ease-in-out 1s infinite}
+.ths02-caret{animation:ths02-blink 1.1s step-end infinite}
+.ths02-seq{animation:ths02-seq 1.5s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){.a,.a *{animation:none!important}.motion{display:none}}
+</style>
+<defs>
+  <clipPath id="ths02-clip"><rect width="820" height="64" rx="12"/></clipPath>
+  <linearGradient id="ths02-bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0E130D"/><stop offset="1" stop-color="#070908"/></linearGradient>
+  <radialGradient id="ths02-glow"><stop offset="0" stop-color="#9AE600" stop-opacity=".2"/><stop offset="1" stop-color="#9AE600" stop-opacity="0"/></radialGradient>
+  <pattern id="ths02-grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#F2F6EE" stroke-opacity=".035" stroke-width=".6"/></pattern>
+  <linearGradient id="ths02-ln" gradientUnits="userSpaceOnUse" x1="242" y1="0" x2="770" y2="0"><stop offset="0" stop-color="#9AE600"/><stop offset="1" stop-color="#9AE600" stop-opacity=".08"/></linearGradient>
+  <linearGradient id="ths02-sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F2F6EE" stop-opacity="0"/><stop offset=".5" stop-color="#F2F6EE" stop-opacity=".05"/><stop offset="1" stop-color="#F2F6EE" stop-opacity="0"/></linearGradient>
+</defs>
+<g clip-path="url(#ths02-clip)">
+  <rect width="820" height="64" fill="url(#ths02-bg)"/>
+  <rect width="820" height="64" fill="url(#ths02-grid)"/>
+  <circle cx="34" cy="32" r="90" fill="url(#ths02-glow)"/>
+  <rect x="0" y="0" width="3" height="64" fill="#9AE600"/>
+  <g class="a" transform="skewX(-18)"><rect class="ths02-sweep" x="-260" y="0" width="160" height="64" fill="url(#ths02-sheen)"/></g>
+  <rect x="14" y="10" width="44" height="44" rx="10" fill="#070908" stroke="#3D6300" stroke-width="1.2"/>
+  <g transform="translate(24 20) scale(1.0)" fill="none" stroke="#9AE600" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7"/><path d="M3 12.5h18"/><path d="M11 12.5v2h2v-2"/></g>
+  <g class="a"><g class="ths02-in">
+    <text x="78" y="26" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" letter-spacing="3" fill="#9AE600">02<tspan fill="#8E9A88" dx="8">//  CAREER</tspan></text>
+    <text x="77" y="50" font-family="'Segoe UI','Inter',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="23" font-weight="800" fill="#F2F6EE" textLength="132" lengthAdjust="spacing">Experience</text>
+    <rect class="ths02-caret" x="218" y="33" width="9" height="19" fill="#9AE600"/>
+  </g></g>
+  <g class="a">
+    <path class="ths02-line" pathLength="1" d="M242 42H770" stroke="url(#ths02-ln)" stroke-width="1.2" fill="none"/>
+    <circle class="ths02-run motion" cx="242" cy="42" r="2.5" fill="#BBF451"/>
+    <g fill="#9AE600">
+      <rect class="ths02-seq" x="780" y="38" width="8" height="8" rx="1.5"/>
+      <rect class="ths02-seq" style="animation-delay:.25s" x="792" y="38" width="8" height="8" rx="1.5"/>
+      <rect class="ths02-seq" style="animation-delay:.5s" x="804" y="38" width="8" height="8" rx="1.5"/>
+    </g>
+  </g>
+</g>
+<rect x=".6" y=".6" width="818.8" height="62.8" rx="11.4" fill="none" stroke="#1E2A18" stroke-width="1.2"/>
+</svg>
