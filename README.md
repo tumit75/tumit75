@@ -2,13 +2,13 @@
 
 <img src="assets/v2/tumit-hero.svg" width="100%" alt="Tumit Hasan — Full Stack Developer working with MERN, Next.js and WordPress" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=9AE600&center=true&vCenter=true&width=640&lines=Crafting+Digital+Solutions;Building+Scalable+Web+Apps;From+Idea+to+Production;Always+Innovating" alt="Crafting digital solutions — building scalable web apps — from idea to production — always innovating" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=640&lines=Crafting+Digital+Solutions;Building+Scalable+Web+Apps;From+Idea+to+Production;Always+Innovating" alt="Crafting digital solutions — building scalable web apps — from idea to production — always innovating" />
 
 <br/>
 
-<img src="https://hits.sh/github.com/tumit75.svg?label=Profile%20Views&style=flat-square&color=3d6300&labelColor=111111" alt="Profile views" />
-<a href="https://github.com/tumit75?tab=followers"><img src="https://img.shields.io/github/followers/tumit75?label=Followers&style=flat-square&color=3D6300&labelColor=111111&logo=github&logoColor=9AE600" alt="GitHub followers" /></a>
-<a href="https://github.com/tumit75?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?label=Repositories&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftumit75&style=flat-square&color=3D6300&labelColor=111111" alt="Public repositories" /></a>
+<img src="https://hits.sh/github.com/tumit75.svg?label=Profile%20Views&style=flat-square&color=155e75&labelColor=111111" alt="Profile views" />
+<a href="https://github.com/tumit75?tab=followers"><img src="https://img.shields.io/github/followers/tumit75?label=Followers&style=flat-square&color=155E75&labelColor=111111&logo=github&logoColor=22D3EE" alt="GitHub followers" /></a>
+<a href="https://github.com/tumit75?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?label=Repositories&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftumit75&style=flat-square&color=155E75&labelColor=111111" alt="Public repositories" /></a>
 
 <sub>
 
@@ -127,7 +127,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=tumit75&background=0B0F0A&border=1E2A18&stroke=1E2A18&ring=9AE600&fire=BBF451&currStreakNum=F2F6EE&sideNums=F2F6EE&currStreakLabel=9AE600&sideLabels=BBF451&dates=8E9A88&border_radius=14" width="70%" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=tumit75&background=0B1217&border=172630&stroke=172630&ring=22D3EE&fire=60A5FA&currStreakNum=EEF6F8&sideNums=EEF6F8&currStreakLabel=22D3EE&sideLabels=60A5FA&dates=87A0A8&border_radius=14" width="70%" alt="GitHub streak" />
 </p>
 
 <details>

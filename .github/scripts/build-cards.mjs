@@ -46,10 +46,10 @@ const ACHIEVEMENT_TEXT = {
   'Arctic Code Vault Contributor': 'Contributed code to the 2020 GitHub Archive Program.',
 };
 
-// Same palette and fonts as the hand-made assets in assets/v2.
+// Same palette and fonts as the assets in assets/v2 (cyan with a blue second accent).
 const C = {
-  lime: '#9AE600', bright: '#BBF451', deep: '#3D6300', border: '#1E2A18',
-  bg1: '#0E130D', bg2: '#070908', text: '#F2F6EE', muted: '#8E9A88',
+  lime: '#22D3EE', bright: '#60A5FA', blue: '#3B82F6', deep: '#155E75', border: '#172630',
+  bg1: '#0B1217', bg2: '#05090C', text: '#EEF6F8', muted: '#87A0A8',
 };
 const SANS = "'Segoe UI','Inter',system-ui,-apple-system,Helvetica,Arial,sans-serif";
 const MONO = "'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace";
@@ -97,6 +97,8 @@ const CSS = `
 const DEFS = `
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${C.bg1}"/><stop offset="1" stop-color="${C.bg2}"/></linearGradient>
 <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="${C.text}" stroke-opacity=".035" stroke-width=".6"/></pattern>
+<linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${C.lime}"/><stop offset="1" stop-color="${C.blue}"/></linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${C.lime}"/><stop offset="1" stop-color="${C.blue}"/></linearGradient>
 <radialGradient id="glow"><stop offset="0" stop-color="${C.lime}" stop-opacity=".18"/><stop offset="1" stop-color="${C.lime}" stop-opacity="0"/></radialGradient>
 <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${C.text}" stop-opacity="0"/><stop offset=".5" stop-color="${C.text}" stop-opacity=".05"/><stop offset="1" stop-color="${C.text}" stop-opacity="0"/></linearGradient>`;
 
@@ -111,7 +113,7 @@ function frame(W, H, title, desc, body, { r = 14, bar = false } = {}) {
   <rect width="${W}" height="${H}" fill="url(#bg)"/>
   <rect width="${W}" height="${H}" fill="url(#grid)"/>
   <circle cx="40" cy="30" r="${Math.max(120, H)}" fill="url(#glow)"/>
-  ${bar ? `<rect width="3" height="${H}" fill="${C.lime}"/>` : ''}
+  ${bar ? `<rect width="3" height="${H}" fill="url(#bar)"/>` : ''}
   <g class="a" transform="skewX(-18)"><rect class="sweep" x="-260" y="0" width="160" height="${H}" fill="url(#sheen)"/></g>
   ${body}
 </g>
@@ -120,7 +122,7 @@ function frame(W, H, title, desc, body, { r = 14, bar = false } = {}) {
 `;
 }
 
-const dots = (x, y) => `<g class="a" fill="${C.lime}">${[0, 1, 2].map((i) => `<rect class="seq" style="animation-delay:${i * 0.25}s" x="${x + i * 12}" y="${y}" width="8" height="8" rx="1.5"/>`).join('')}</g>`;
+const dots = (x, y) => `<g class="a" fill="${C.lime}">${[0, 1, 2].map((i) => `<rect class="seq" style="animation-delay:${i * 0.25}s" x="${x + i * 12}" y="${y}" width="8" height="8" rx="4"/>`).join('')}</g>`;
 
 // ------------------------------------------------------------------ data
 async function gql(query, variables) {
@@ -224,7 +226,7 @@ function statsCard(d) {
   }).join('');
   const cx = 400, cy = 105, r = 46, len = 2 * Math.PI * r;
   const ring = `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${C.border}" stroke-width="7"/>
-<g class="a"><circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${C.lime}" stroke-width="7" stroke-linecap="round" transform="rotate(-90 ${cx} ${cy})" stroke-dasharray="${r1(len)}" style="--len:${r1(len)};--off:${r1(len * 0.25)};stroke-dashoffset:${r1(len * 0.25)};animation:draw 1.4s cubic-bezier(.6,0,.2,1) .3s both"/></g>
+<g class="a"><circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="url(#ring)" stroke-width="7" stroke-linecap="round" transform="rotate(-90 ${cx} ${cy})" stroke-dasharray="${r1(len)}" style="--len:${r1(len)};--off:${r1(len * 0.25)};stroke-dashoffset:${r1(len * 0.25)};animation:draw 1.4s cubic-bezier(.6,0,.2,1) .3s both"/></g>
 <g transform="translate(${cx - 20} ${cy - 20}) scale(1.6667)"><path fill="${C.text}" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></g>`;
   return frame(W, H, `${d.name}'s GitHub Stats`,
     `Total stars earned: ${d.stars}. Commits in the last year: ${d.commits}. Contributions in the last year: ${d.contributions}. Total pull requests: ${d.prs}. Total issues: ${d.issues}.`,
@@ -284,7 +286,7 @@ function projectCard(p, repo, i) {
   let cx = 77;
   const chips = p.stack.map((s) => {
     const w = Math.round(s.length * 6.9 + 18);
-    const out = `<rect x="${cx}" y="${chipY}" width="${w}" height="22" rx="5" fill="${C.bg2}" stroke="${C.deep}"/>${T(r1(cx + w / 2), chipY + 15, s, { size: 11, fill: C.bright, font: MONO, anchor: 'middle' })}`;
+    const out = `<rect x="${cx}" y="${chipY}" width="${w}" height="22" rx="11" fill="${C.bg2}" stroke="${C.deep}"/>${T(r1(cx + w / 2), chipY + 15, s, { size: 11, fill: C.bright, font: MONO, anchor: 'middle' })}`;
     cx += w + 8;
     return out;
   }).join('');
@@ -297,7 +299,7 @@ function projectCard(p, repo, i) {
     ? `<text x="${W - 22}" y="${chipY + 15}" font-family="${MONO}" font-size="11" text-anchor="end" fill="${C.muted}">${lang ? `<tspan fill="${lang.color || C.muted}">●</tspan> ${esc(lang.name)} · ` : ''}${full ? 'updated ' : ''}${esc(fmtDate(repo.pushedAt))}</text>`
     : '';
   const body = `
-<rect x="14" y="14" width="44" height="44" rx="10" fill="${C.bg2}" stroke="${C.deep}" stroke-width="1.2"/>
+<rect x="14" y="14" width="44" height="44" rx="22" fill="${C.bg2}" stroke="${C.deep}" stroke-width="1.2"/>
 <g transform="translate(24 24)" fill="none" stroke="${C.lime}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${folderIcon()}</g>
 <g class="a"><g class="rise">
   <text x="78" y="30" font-family="${MONO}" font-size="11" letter-spacing="3" fill="${C.lime}">${String(i + 1).padStart(2, '0')}<tspan fill="${C.muted}" dx="8">//  ${esc(p.category.toUpperCase())}</tspan></text>
@@ -307,7 +309,7 @@ function projectCard(p, repo, i) {
 ${T(W - 108, 30, 'LIVE', { size: 11, fill: C.lime, font: MONO, ls: 2, weight: 700 })}
 ${dots(W - 58, 22)}
 ${T(W - 22, 52, domain, { size: 11, fill: C.muted, font: MONO, anchor: 'end' })}
-${lines.map((l, k) => T(77, 82 + k * 20, l, { size: 14, fill: '#C9D3C2' })).join('')}
+${lines.map((l, k) => T(77, 82 + k * 20, l, { size: 14, fill: '#C3D3D8' })).join('')}
 ${chips}
 ${meta}`;
   return frame(W, H, `${p.name} — ${p.category}`,

@@ -6,10 +6,10 @@
 @media (prefers-reduced-motion: reduce){.a,.a *{animation:none!important}.motion{display:none}}
 </style>
 <defs><filter id="thb-portfolio-blur" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="3.5"/></filter></defs>
-<g class="a"><rect class="thb-portfolio-glow motion" x="4" y="4" width="202" height="44" rx="12" fill="#9AE600" filter="url(#thb-portfolio-blur)" opacity=".1"/></g>
-<rect x="4" y="4" width="202" height="44" rx="12" fill="#0E130D" stroke="#3D6300" stroke-width="1.3"/>
-<rect x="12" y="10" width="36" height="32" rx="8" fill="#070908" stroke="#1E2A18"/>
-<g transform="translate(21 17) scale(0.75)" fill="none" stroke="#9AE600" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9s1.3-6.5 3.8-9z"/></g>
-<text x="60" y="31" font-family="'Segoe UI','Inter',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#F2F6EE">Portfolio</text>
-<path d="M179 21.5l5 4.5-5 4.5M186 21.5l5 4.5-5 4.5" fill="none" stroke="#9AE600" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="a"><rect class="thb-portfolio-glow motion" x="4" y="4" width="202" height="44" rx="22" fill="#22D3EE" filter="url(#thb-portfolio-blur)" opacity=".1"/></g>
+<rect x="4" y="4" width="202" height="44" rx="22" fill="#0B1217" stroke="#155E75" stroke-width="1.3"/>
+<rect x="14" y="10" width="32" height="32" rx="16" fill="#05090C" stroke="#172630"/>
+<g transform="translate(21 17) scale(0.75)" fill="none" stroke="#22D3EE" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9s1.3-6.5 3.8-9z"/></g>
+<text x="60" y="31" font-family="'Segoe UI','Inter',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#EEF6F8">Portfolio</text>
+<path d="M179 21.5l5 4.5-5 4.5M186 21.5l5 4.5-5 4.5" fill="none" stroke="#22D3EE" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
